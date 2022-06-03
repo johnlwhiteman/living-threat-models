@@ -96,7 +96,7 @@
               "id": "fedd54a3-1422-410b-9dd3-4870689e62e5",
               "z": 2,
               "hasOpenThreats": true,
-              "isEncrypted": true,
+              "isEncrypted": false,
               "threats": [
                 {
                   "ruleId": "0f20e64c-5d03-42ac-b0ae-ed105a38ee1f",
@@ -210,7 +210,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "HTTPS",
+                      "text": "HTTP",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -219,7 +219,7 @@
               ],
               "z": 5,
               "hasOpenThreats": true,
-              "isEncrypted": true,
+              "isEncrypted": false,
               "isPublicNetwork": true,
               "threats": [
                 {
@@ -331,7 +331,7 @@
                   "$$hashKey": "object:117"
                 }
               ],
-              "protocol": "HTTPS",
+              "protocol": "HTTP",
               "description": "Network connection between client and web server",
               "attrs": {
                 ".marker-target": {
@@ -376,7 +376,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "HTTPS",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
