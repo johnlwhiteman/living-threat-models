@@ -135,7 +135,7 @@
                   "$$hashKey": "object:335"
                 }
               ],
-              "description": "Stores customer data",
+              "description": "Database that stores the customer data",
               "storesInventory": false,
               "storesCredentials": true,
               "attrs": {
@@ -604,7 +604,7 @@
                 }
               ],
               "isEncrypted": true,
-              "protocol": "HTTPS",
+              "protocol": "",
               "description": "Network connection between database and web server",
               "attrs": {
                 ".marker-target": {

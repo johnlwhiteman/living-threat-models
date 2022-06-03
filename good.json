@@ -129,13 +129,13 @@
                   "modelType": "CIA",
                   "status": "Open",
                   "severity": "High",
-                  "description": "Database must be running at all times 99.999%",
+                  "description": "Database must run 99.999%",
                   "mitigation": "Need more work here",
                   "threatId": "5a9e8589-e861-4e8e-a48e-8cadc44aaa2c",
                   "$$hashKey": "object:335"
                 }
               ],
-              "description": "Stores customer data",
+              "description": "Database that stores the customer data",
               "storesInventory": false,
               "storesCredentials": true,
               "attrs": {
