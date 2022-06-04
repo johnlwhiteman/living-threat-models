@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Send us free imperial beers only > 10% IBU if want to use this software"
+authors:
+- family-names: "John"
+  given-names: "Andersen"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "John"
+  given-names: "Whiteman"
+  orcid: "https://orcid.org/0000-0003-3583-5916"
+title: "Living Threat Models"
+version: 1.0.0
+doi: ""
+date-released: 2022-06-04
+url: "https://github.com/johnlwhiteman/living-threat-models"
