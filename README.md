@@ -36,7 +36,7 @@
         commit tag: "0 Day"
 ```
 
-### LTM Joined @ the Hip
+### LTM w/o the Branch
 
 ```mermaid
 %%{init: { 'themeVariables': {'git0': '#FFCB5D', 'git1': '#77A3FF', 'git2':'#FF7A5D'}, 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':false}} }%%
@@ -57,16 +57,5 @@
         commit tag: "hotfix {CVE}"
         checkout main
         merge b1 tag: "v2.1"
-
-```
-
-
-
-
-
-
-
-
-
 
 ```
