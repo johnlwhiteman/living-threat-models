@@ -1,5 +1,7 @@
 # Living Threat Model (LTM)
 
+## Scan Threat Models Like You Scan Code
+
 ![](demo/demo.gif)
 
 ## GitFlow Scenarios
