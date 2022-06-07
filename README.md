@@ -4,7 +4,7 @@
 
 ![](demo/demo.gif)
 
-## GitFlow Scenarios
+## Treat Threat Models Like Source Code
 
 ### LTM as a Branch
 
