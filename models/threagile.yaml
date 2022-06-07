@@ -1,0 +1,42 @@
+threagile_version: 1.0.0
+
+title: Hastings Threat Model
+
+date: 1066-10-14
+
+author:
+  name: Harold Godwinson
+  homepage: http://localhost
+
+security_requirements:
+  Some Security Requirement: Some Description
+
+tags_available:
+  - some-tag
+  - some-other-tag
+
+data_assets:
+
+  Some Data Asset:
+    id: some-data
+    description: Some Description
+    usage: business
+    tags: some-tag
+    origin: Some Origin
+    owner: Some Owner
+    quantity: many
+    confidentiality: confidential
+    integrity: critical
+    availability: operational
+    justification_cia_rating: Some Justification
+
+risk_tracking:
+
+  unencrypted-asset@some-component:
+    status: false-positive
+    justification: Risk accepted as tolerable
+    ticket: XYZ-1234
+    date: 2020-01-04
+    checked_by: John Doe
+
+

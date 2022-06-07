@@ -1,5 +1,13 @@
 # Living Threat Model (LTM)
 
+
+
+## Threagile
+```
+docker pull threagile/threagile
+docker run --rm -it threagile/threagile
+```
+
 ## GitFlow Scenarios
 
 ### LTM as a Branch
