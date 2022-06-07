@@ -1,7 +1,5 @@
-import json
 import pprint
 import sys
-from pprint import pprint as pp
 from parser import parse
 
 def audit(ltm):
@@ -39,7 +37,7 @@ def audit(ltm):
                         "Severity": "Critical",
                         "Description": tm["description"]
                     })
-
     return issues
 
-pp(audit(parse(sys.argv[1])))
+if __name__ == "__main__":
+    pprint.pprint(audit(parse(sys.argv[1])))
