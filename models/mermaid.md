@@ -4,6 +4,6 @@
 flowchart RL
     client((Client\nApplication)) --HTTPS--> webserver((Web Server))
     subgraph in scope and trust boundary
-        webserver((Web Server)) --HTTPS--> databasep[Customer\n Database]
+        webserver((Web Server)) --HTTPS--> databasep[Customer Database]
     end
 ```
