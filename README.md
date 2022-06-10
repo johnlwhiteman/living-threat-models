@@ -1,5 +1,8 @@
 # Living Threat Model (LTM)
 
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 ### When Apps Evolve, So Does the Risk And So Should the Threat Model
 
 ![](images/tms-are-ramen-not-milk.png)
@@ -12,9 +15,67 @@
 
 ![](images/etcha-a-sketch.png)
 
-### Put the TM in the CI/CD Workflow
+### Put the TM in the CI/CD
 
-![](images/github-flow.png)
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':false}} }%%
+
+    gitGraph
+
+        commit tag: "init {...}"
+
+        branch ltm
+
+        checkout ltm
+
+        commit tag: "v1.0"
+
+        checkout main
+
+        merge ltm tag: "v1.0"
+
+        branch b1
+
+        checkout b1
+
+        commit tag: "hotfix {∅}"
+
+        checkout main
+
+        merge b1 tag: "v1.1"
+
+        branch b2
+
+        checkout b2
+
+        commit tag: "cloud {Δ}"
+
+        checkout ltm
+
+        merge b2 tag: "v2.0"
+
+        checkout main
+
+        merge ltm tag: "v2.0"
+
+        checkout b1
+
+        merge main
+
+        commit tag: "hotfix {CVE}"
+
+        checkout ltm
+
+        merge b1 tag: "v3.0"
+
+        checkout main
+
+        merge ltm tag: "v2.1"
+
+        checkout ltm
+
+        commit tag: "0 Day"
+```
 
 ### THREATS.md Is the New README.md
 
@@ -32,10 +93,10 @@ trust_boundaries:
 ```
 ````
 
-### Must Feed the TM to Keep It Alive
-
-![](images/dffml.png)
-
 ### Scan Threat Models Like You Scan Code
 
 ![](demo/demo.gif)
+
+### Must Feed the TM to Keep It Alive
+
+![](images/dffml.png)
