@@ -1,0 +1,22 @@
+definitions:
+  ThreatDragonThreatModelPath:
+    name: ThreatDragonThreatModelPath
+    primitive: str
+  auditor_overlay:audit.outputs.result:
+    name: auditor_overlay:audit.outputs.result
+    primitive: array
+flow:
+  auditor_overlay:audit:
+    inputs:
+      ltm:
+      - seed
+linked: true
+operations:
+  auditor_overlay:audit:
+    inputs:
+      ltm: ThreatDragonThreatModelPath
+    name: auditor_overlay:audit
+    outputs:
+      result: auditor_overlay:audit.outputs.result
+    retry: 0
+    stage: processing
