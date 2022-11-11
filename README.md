@@ -1,5 +1,7 @@
 # Living Threat Model (LTM)
 
+OWASP AppSecDays PNW Talk: https://youtu.be/TMlC_iAK3Rg
+
 ### When Apps Evolve, So Does the Risk And So Should the Threat Model
 
 ![](images/tms-are-ramen-not-milk.png)
