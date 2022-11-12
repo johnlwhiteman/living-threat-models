@@ -1,7 +1,7 @@
 Living THREATS.md
 #################
 
-Install Alice https://github.com/pdxjohnny/dffml/tree/manifest/entities/alice
+Install Alice https://github.com/pdxjohnny/dffml/tree/alice/entities/alice
 
 Create the ``THREATS.md`` file
 
